@@ -74,6 +74,7 @@ namespace Nop.Plugin.Api.Controllers
             _productService = productService;
             _productAttributeService = productAttributeService;
             _dtoHelper = dtoHelper;
+            _pictureService = pictureService;
         }
 
         /// <summary>
